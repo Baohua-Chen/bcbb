@@ -159,7 +159,7 @@ class GFF3Writer:
 
     def _format_keyvals(self, keyvals):
         format_kvs = []
-        for key in sorted(keyvals.keys()):
+        for key in keyvals.keys():
             values = keyvals[key]
             key = key.strip()
             format_vals = []
